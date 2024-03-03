@@ -6,6 +6,7 @@ function App() {
       <a href="#home">HOME</a>
       <a href="#projects">PROJECTS</a>
       <a href="#hobbies">HOBBIES</a>
+      <a href="#info">INFO</a>
     </div>
   );
 }
