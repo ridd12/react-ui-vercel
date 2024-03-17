@@ -35,7 +35,37 @@
   padding: 0 0 3% 5%;
 }
 
-.tp {
-  background-color: #c4dfe6;
+.home {
+  background-color: #f0f3f4;
   height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background: rgb(122, 124, 138);
+  background: linear-gradient(
+    90deg,
+    rgba(122, 124, 138, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+.west {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.east {
+  display: flex;
+  flex-direction: column;
+}
+
+.company {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.companyName {
+  font-size: "2rem";
 }
