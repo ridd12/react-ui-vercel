@@ -113,7 +113,95 @@ function Home() {
       </div>
       <div className="east">
         <div>
-          <h3>Story</h3>
+          <h5>
+            Back in 2012, I decided to try my hand at creating custom Tumblr
+            themes and tumbled head first into the rabbit hole of coding and web
+            development. Fast-forward to today, and I’ve had the privilege of
+            building software for an advertising agency, a start-up, a huge
+            corporation, and a digital product studio.
+          </h5>
+          <h5>
+            My main focus these days is building accessible user interfaces for
+            our customers at Klaviyo. I most enjoy building software in the
+            sweet spot where design and engineering meet — things that look good
+            but are also built well under the hood. In my free time, I've also
+            released an online video course that covers everything you need to
+            know to build a web app with the Spotify API.
+          </h5>
+          <h5>
+            When I’m not at the computer, I’m usually rock climbing, reading,
+            hanging out with my wife and two cats, or running around Hyrule
+            searching for Korok seeds
+          </h5>
+          <div className="experience">
+            <h5>2023 Aug - Present</h5>
+            <div className="firstCompany">
+              <h5>RKS CLoud</h5>
+              <h6>
+                Built In-App-purchase Auto-renewable subscriptions for iOS and
+                Android mobile applications. Used server-to-server notification
+                to handle subscription lifecycle flow. I used AWS API-Gateway,
+                Lambda, and SQS to handle notifications asynchronously.
+                Integrated Stripe one-time payment and subscriptions in web
+                application, managing payment lifecycles through server
+                webhooks. Contributed to building distributed pub-sub
+                event-driven Cron job service for usage insights for the
+                onboarded customer's data using reactive spring and AWS SQS.
+                Built onboarding system for AWS and GCP accounts using IAM
+                STSRoles and Service accounts. With the successful
+                implementation of a Reactive Spring application, leveraging AWS
+                Cognito and AWS KMS for user authentication and robust data
+                encryption respectively. Streamlined secrets retrieval through
+                GraphQL APIs
+              </h6>
+            </div>
+          </div>
+          <div className="experience">
+            <h5>2023 Aug - Present</h5>
+            <div className="firstCompany">
+              <h5>RKS CLoud</h5>
+              <h6>
+                Built In-App-purchase Auto-renewable subscriptions for iOS and
+                Android mobile applications. Used server-to-server notification
+                to handle subscription lifecycle flow. I used AWS API-Gateway,
+                Lambda, and SQS to handle notifications asynchronously.
+                Integrated Stripe one-time payment and subscriptions in web
+                application, managing payment lifecycles through server
+                webhooks. Contributed to building distributed pub-sub
+                event-driven Cron job service for usage insights for the
+                onboarded customer's data using reactive spring and AWS SQS.
+                Built onboarding system for AWS and GCP accounts using IAM
+                STSRoles and Service accounts. With the successful
+                implementation of a Reactive Spring application, leveraging AWS
+                Cognito and AWS KMS for user authentication and robust data
+                encryption respectively. Streamlined secrets retrieval through
+                GraphQL APIs
+              </h6>
+            </div>
+          </div>
+          <div className="experience">
+            <h5>2023 Aug - Present</h5>
+            <div className="firstCompany">
+              <h5>RKS CLoud</h5>
+              <h6>
+                Built In-App-purchase Auto-renewable subscriptions for iOS and
+                Android mobile applications. Used server-to-server notification
+                to handle subscription lifecycle flow. I used AWS API-Gateway,
+                Lambda, and SQS to handle notifications asynchronously.
+                Integrated Stripe one-time payment and subscriptions in web
+                application, managing payment lifecycles through server
+                webhooks. Contributed to building distributed pub-sub
+                event-driven Cron job service for usage insights for the
+                onboarded customer's data using reactive spring and AWS SQS.
+                Built onboarding system for AWS and GCP accounts using IAM
+                STSRoles and Service accounts. With the successful
+                implementation of a Reactive Spring application, leveraging AWS
+                Cognito and AWS KMS for user authentication and robust data
+                encryption respectively. Streamlined secrets retrieval through
+                GraphQL APIs
+              </h6>
+            </div>
+          </div>
         </div>
       </div>
     </div>

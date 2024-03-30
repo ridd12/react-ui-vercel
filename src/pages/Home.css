@@ -2,9 +2,24 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  height: 100vh;
   font-size: 21px;
-  background-color: #ffffff;
+  background: #ffffff;
+
+  /* One */
+  /* background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%); */
+
+  /* Two */
+  /* background: #dae2f8; fallback for old browsers */
+  /* background: -webkit-linear-gradient(
+    to right,
+    #d6a4a4,
+    #dae2f8
+  ); Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient(
+    to right,
+    #d6a4a4,
+    #dae2f8
+  ); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .west {
@@ -12,11 +27,16 @@
   flex-direction: column;
   /* background-color: aqua; */
   justify-content: space-around;
+  height: 650px;
 }
 
 .east {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+  width: 600px;
+  overflow-y: auto;
+  height: 100vh;
 }
 
 .navigator-child {
@@ -82,4 +102,18 @@
   margin-left: 0;
   margin-right: 0;
   margin-top: 13px;
+}
+
+.experience {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.firstCompany {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  width: 400px;
 }
