@@ -1,0 +1,39 @@
+.main {
+  background-color: #f0f3f4;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.mainColoum1 {
+  flex: 1;
+  background-color: #000000ff;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.mainColoum2 {
+  flex: 1;
+  background-color: #ffffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: end;
+}
+
+.name {
+  margin: 0;
+  padding-top: 3%;
+  color: #ffffffff;
+}
+.lastName {
+  margin: 0;
+  padding-bottom: 3%;
+  color: #000000ff;
+}
+
+.nextLogo {
+  padding: 0 0 3% 5%;
+}
