@@ -1,12 +1,12 @@
 .home {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   font-size: 21px;
   background: #ffffff;
 
   /* One */
-  /* background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%); */
+  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
 
   /* Two */
   /* background: #dae2f8; fallback for old browsers */
@@ -28,6 +28,7 @@
   /* background-color: aqua; */
   justify-content: space-around;
   height: 650px;
+  padding-left: 90px;
 }
 
 .east {
@@ -37,11 +38,15 @@
   width: 600px;
   overflow-y: auto;
   height: 100vh;
+  padding-right: 90px;
+  /* padding-top: 30px; */
 }
 
 .navigator-child {
   display: flex;
   flex-direction: row;
+  padding-top: 7px;
+  padding-bottom: 7px;
 }
 
 .spacer {
@@ -117,3 +122,29 @@
   flex-wrap: wrap;
   width: 400px;
 }
+
+.experiencedetail {
+  color: black;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/* width */
+/* ::-webkit-scrollbar {
+  width: 10px;
+} */
+
+/* Track */
+/* ::-webkit-scrollbar-track {
+  background: #f1f1f1;
+} */
+
+/* Handle */
+/* ::-webkit-scrollbar-thumb {
+  background: #888;
+} */
+
+/* Handle on hover */
+/* ::-webkit-scrollbar-thumb:hover {
+  background: #555;
+} */
